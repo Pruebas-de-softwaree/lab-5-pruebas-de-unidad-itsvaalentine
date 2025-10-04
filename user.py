@@ -3,7 +3,6 @@ class User:
         self.name = name
         self.user_id = user_id
         self.history = []
-
     def register_borrow(self, book):
         self.history.append(f"Borrwed: {book.title}")
 
